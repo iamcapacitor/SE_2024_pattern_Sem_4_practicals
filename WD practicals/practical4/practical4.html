@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Css styling example</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="external.css">
+    <!-- internal css -->
+    <style>
+        table{
+            color: black;;
+            font-family: monospace;
+            background-color: white;
+            border: 2px solid yellow;
+            width:100%;
+        }
+        th,td{
+            border: 1px solid brown;
+            text-align: left;
+            padding: 0.5rem;
+        }
+        tr:nth-child(even){
+            background-color:cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Student Information</h1>
+        <h2>Class List</h2>
+        <p style="color: red; font-weight:bold;">
+            Note: Inline CSS overrides internal and external styles.
+        </p>
+        <table>
+            <caption>Table 1: Student Details</caption>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Attendence %</th>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Hari</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Mukesh</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>39</td>
+                <td>Dinesh</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>48</td>
+                <td>Nagesh</td>
+                <td>65</td>
+            </tr>
+            <tr>
+                <td>56</td>
+                <td>Sushil</td>
+                <td>99</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
