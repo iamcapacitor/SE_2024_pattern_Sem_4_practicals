@@ -53,7 +53,7 @@ SELECT
     LENGTH(Emp_Name) AS Name_Length
 FROM Employee;
 
--- A) Data Manipulation Language (DML)
+-- b) Access Control (DCL)
 
 -- create user
 CREATE USER user1 IDENTIFIED BY password123;
