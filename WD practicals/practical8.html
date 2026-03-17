@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+</head>
+<body>
+    <h1>Namaste</h1>
+    <h2>This is Simple Calculator</h2>
+    
+</body>
+<script>
+    class calculator{
+        add(a , b) {
+            return a+b;
+        }
+        subtract = (a , b)=>{
+            return a-b;
+        }
+        multiply(a , b){
+            return a*b;
+        }
+        divide = (a , b)=>{
+            if(b == 0){
+                return "Error: result :infinity , division by zero not allowed"
+            }
+            return a/b;    
+        }
+        remainder(a , b){
+            return a%b;
+        }   
+    }
+
+    const c = new calculator();
+    let num1 = parseFloat(prompt("Enter first number:"));
+    let num2 = parseFloat(prompt("Enter second number:"));
+    let operator = prompt("Enter operator (+ , - , * , / , %): ");
+
+    let result = "Invalid Operator";
+    switch(operator){
+        case "+":
+            result = c.add(num1 , num2);
+            break;
+        case "-":
+            result = c.subtract(num1 , num2);
+            break;
+        case "*":
+            result = c.multiply(num1 , num2);
+            break;
+        case "/":
+            result = c.divide(num1 , num2);
+            break;
+        case "%":
+            result = c.remainder(num1 , num2);
+            break;
+        default:
+            result = "Invalid Operator";
+    }
+    alert("Result:" + result);
+</script>
+</html>
