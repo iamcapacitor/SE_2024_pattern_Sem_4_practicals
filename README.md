@@ -25,3 +25,8 @@ access.
 c) Transaction Control (TCL): Apply START TRANSACTION, COMMIT, ROLLBACK, and
 SAVEPOINT commands to manage transactions.
 ```
+#### P4 - Aggregate Functions and Grouping
+```bash
+Use aggregate functions along with GROUP BY and HAVING clauses to retrieve
+summarized data from the database.
+```
