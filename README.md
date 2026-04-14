@@ -30,3 +30,8 @@ SAVEPOINT commands to manage transactions.
 Use aggregate functions along with GROUP BY and HAVING clauses to retrieve
 summarized data from the database.
 ```
+#### p5 - JOIN Operations and Views
+```bash
+Perform various types of JOIN operations to extract meaningful relationships between
+tables. Create and manage different database views.
+```
