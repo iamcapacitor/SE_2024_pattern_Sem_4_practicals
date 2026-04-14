@@ -4,22 +4,22 @@
 
 
 // Step 1: Create Database and Collection
-use('collegeDB')
+use('collegeDB2')
 db.createCollection("students")
 
 // 1. CREATE Operation
 // Insert Documents
-db.students.insertOne({
-  name: "Rahul",
+db.students.insertOne( {
+  name: "Rohit khengare",
   age: 20,
   course: "BCA",
   marks: 75
-})
-db.students.insertMany([
-  { name: "Priya", age: 21, course: "BCA", marks: 82 },
-  { name: "Amit", age: 22, course: "BBA", marks: 65 },
-  { name: "Sneha", age: 20, course: "BCA", marks: 90 }
-])
+} )
+db.students.insertMany( [
+  { name: "Vikas", age: 21, course: "BCA", marks: 82 },
+  { name: "kartik", age: 22, course: "BBA", marks: 65 },
+  { name: "Deepak", age: 20, course: "BCA", marks: 90 }
+] )
 
 // 2. READ Operation
 
@@ -55,7 +55,7 @@ db.students.find({
 
 // Update One Document
 db.students.updateOne(
-  { name: "Rahul" },
+  { name: "Rohit khengare" },
   { $set: { marks: 85 } }
 )
 // Update Multiple Documents
@@ -63,18 +63,9 @@ db.students.updateMany(
   { course: "BCA" },
   { $set: { course: "BCA-Updated" } }
 )
-// Using save() for Update
-db.students.save({
-  _id: 1,
-  name: "Kiran",
-  age: 24,
-  course: "BCom",
-  marks: 75
-})
-
 // 4. DELETE Operation
 
-db.students.deleteOne({ name: "Amit" }) // delete one
+db.students.deleteOne({ name: "kartik" }) // delete one
 db.students.deleteMany({ marks: { $lt: 70 } }) // delete many
 
 // Sample Output Check
