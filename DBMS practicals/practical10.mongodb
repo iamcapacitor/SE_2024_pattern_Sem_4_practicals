@@ -8,7 +8,7 @@ db.createCollection("students")
 
 // Step 2: Insert Sample Data
 db.students.insertMany([
-  { name: "Rohit khengare", course: "BCA", marks: 75, city: "Pune" },
+  { name: "Rohit", course: "BCA", marks: 75, city: "Pune" },
   { name: "Vikas", course: "BCA", marks: 85, city: "Mumbai" },
   { name: "kartik", course: "BBA", marks: 65, city: "Pune" },
   { name: "Deepak", course: "BCA", marks: 90, city: "Delhi" },
@@ -82,7 +82,7 @@ db.students.getIndexes()
 db.students.dropIndex({ name: 1 })
 
 // 5️⃣ Use Index in Query (Performance)
-db.students.find({ name: "Rohit khengare" }) // This query runs faster if an index exists on name
+db.students.find({ name: "Rohit" }) // This query runs faster if an index exists on name
 
 // Output Check
 db.students.find().pretty()

@@ -10,7 +10,7 @@ db.createCollection("students")
 // 1. CREATE Operation
 // Insert Documents
 db.students.insertOne( {
-  name: "Rohit khengare",
+  name: "Rohit",
   age: 20,
   course: "BCA",
   marks: 75
@@ -55,7 +55,7 @@ db.students.find({
 
 // Update One Document
 db.students.updateOne(
-  { name: "Rohit khengare" },
+  { name: "Rohit" },
   { $set: { marks: 85 } }
 )
 // Update Multiple Documents
