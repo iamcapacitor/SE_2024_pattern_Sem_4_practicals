@@ -68,3 +68,45 @@ DELIMITER ;
 CALL failed_students();
 
 -- A cursor is a database object used in PL/SQL to retrieve and process query results row by row instead of processing the entire result at once.
+
+-- for entire list , we need this function--------------
+DELIMITER $$
+
+CREATE FUNCTION failed_students_list()
+RETURNS TEXT
+DETERMINISTIC
+BEGIN
+    DECLARE done INT DEFAULT 0;
+    DECLARE s_name VARCHAR(20);
+    DECLARE s_result VARCHAR(10);
+    DECLARE result_list TEXT DEFAULT '';
+
+    DECLARE student_cursor CURSOR FOR
+        SELECT name, result FROM students;
+
+    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
+
+    OPEN student_cursor;
+
+    read_loop: LOOP
+        FETCH student_cursor INTO s_name, s_result;
+
+        IF done = 1 THEN
+            LEAVE read_loop;
+        END IF;
+
+        IF s_result = 'fail' THEN
+            SET result_list = CONCAT(result_list, s_name, ', ');
+        END IF;
+
+    END LOOP;
+
+    CLOSE student_cursor;
+
+    RETURN result_list;
+END $$
+
+DELIMITER ;
+
+-- Executing the Function
+SELECT failed_students_list();
