@@ -40,3 +40,7 @@ tables. Create and manage different database views.
 Write and execute subqueries to retrieve data from one table based on results from
 another.
 ```
+#### p7 - Stored Procedures or Function with Cursors
+```bash
+Create and execute stored procedures / function using cursors.
+```
