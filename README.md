@@ -35,3 +35,8 @@ summarized data from the database.
 Perform various types of JOIN operations to extract meaningful relationships between
 tables. Create and manage different database views.
 ```
+#### p6 - Subqueries
+```bash
+Write and execute subqueries to retrieve data from one table based on results from
+another.
+```
