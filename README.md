@@ -44,3 +44,12 @@ another.
 ```bash
 Create and execute stored procedures / function using cursors.
 ```
+#### p8 - Database Triggers
+```bash
+Implement and test triggers to maintain data integrity in database.
+```
+#### p9 - CRUD Operations using MongoDB
+```bash
+Design and implement basic Create, Read, Update, and Delete (CRUD) operations using
+MongoDB. Use the save method and logical operators where necessary.
+```
