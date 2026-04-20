@@ -53,3 +53,8 @@ Implement and test triggers to maintain data integrity in database.
 Design and implement basic Create, Read, Update, and Delete (CRUD) operations using
 MongoDB. Use the save method and logical operators where necessary.
 ```
+#### p10 - Aggregation and Indexing in MongoDB
+```bash
+Design and execute MongoDB queries using aggregation and indexing techniques with
+suitable examples.
+```
