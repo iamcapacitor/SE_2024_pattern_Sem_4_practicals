@@ -58,3 +58,7 @@ MongoDB. Use the save method and logical operators where necessary.
 Design and execute MongoDB queries using aggregation and indexing techniques with
 suitable examples.
 ```
+
+## WD practicals
+
+#### p1 - Create a simple HTML page displaying personal details using text formatting tags.
