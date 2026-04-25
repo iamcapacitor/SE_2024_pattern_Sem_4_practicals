@@ -64,3 +64,4 @@ suitable examples.
 #### p1 - Create a simple HTML page displaying personal details using text formatting tags.
 #### p2 - Design a web page that includes an image, hyperlink, and a nested table.
 #### p3 - Create a form with fields: name, email, gender, date of birth, and submit button.
+###
