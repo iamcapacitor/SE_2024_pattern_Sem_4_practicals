@@ -64,4 +64,5 @@ suitable examples.
 #### p1 - Create a simple HTML page displaying personal details using text formatting tags.
 #### p2 - Design a web page that includes an image, hyperlink, and a nested table.
 #### p3 - Create a form with fields: name, email, gender, date of birth, and submit button.
-###
+#### p4 - Apply internal, external, and inline CSS to style a web page with headings and tables.
+#### p5 - Develop a responsive web page using Bootstrap Grid and Components.
