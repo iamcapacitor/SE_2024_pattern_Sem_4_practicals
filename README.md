@@ -66,3 +66,4 @@ suitable examples.
 #### p3 - Create a form with fields: name, email, gender, date of birth, and submit button.
 #### p4 - Apply internal, external, and inline CSS to style a web page with headings and tables.
 #### p5 - Develop a responsive web page using Bootstrap Grid and Components.
+#### p6 - Write a JavaScript program to validate form inputs (e.g., email, empty fields).
