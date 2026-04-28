@@ -67,3 +67,4 @@ suitable examples.
 #### p4 - Apply internal, external, and inline CSS to style a web page with headings and tables.
 #### p5 - Develop a responsive web page using Bootstrap Grid and Components.
 #### p6 - Write a JavaScript program to validate form inputs (e.g., email, empty fields).
+#### p7 - Create a web page that uses JavaScript to display dynamic content using DOM.
