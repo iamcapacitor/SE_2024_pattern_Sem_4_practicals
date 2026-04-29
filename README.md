@@ -68,3 +68,5 @@ suitable examples.
 #### p5 - Develop a responsive web page using Bootstrap Grid and Components.
 #### p6 - Write a JavaScript program to validate form inputs (e.g., email, empty fields).
 #### p7 - Create a web page that uses JavaScript to display dynamic content using DOM.
+#### p8 - Write a JavaScript program for a simple calculator using functions and switch-case.
+#### p9 - Design a PHP script to display "Welcome" message and current date & time.
