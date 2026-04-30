@@ -70,3 +70,4 @@ suitable examples.
 #### p7 - Create a web page that uses JavaScript to display dynamic content using DOM.
 #### p8 - Write a JavaScript program for a simple calculator using functions and switch-case.
 #### p9 - Design a PHP script to display "Welcome" message and current date & time.
+#### p10 - Write a PHP program to accept form input and display it using the POST method.
