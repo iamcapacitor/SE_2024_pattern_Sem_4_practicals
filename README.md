@@ -72,3 +72,4 @@ suitable examples.
 #### p9 - Design a PHP script to display "Welcome" message and current date & time.
 #### p10 - Write a PHP program to accept form input and display it using the POST method.
 #### p11 - Implement a PHP program for string manipulation (e.g., reverse, length, substring).
+#### p12 - Create a PHP script to store and display values in an array.
