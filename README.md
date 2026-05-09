@@ -73,3 +73,7 @@ suitable examples.
 #### p10 - Write a PHP program to accept form input and display it using the POST method.
 #### p11 - Implement a PHP program for string manipulation (e.g., reverse, length, substring).
 #### p12 - Create a PHP script to store and display values in an array.
+
+## Microprocessor practical
+
+#### p1 - Write an X86/64 ALP to accept five 64 bit Hexadecimal numbers from user and store them in an array and display the accepted numbers.
