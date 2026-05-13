@@ -80,3 +80,4 @@ suitable examples.
 #### p2 - Write an X86/64 ALP to accept a string and to display its length.
 #### p3 - Write an X86/64 ALP to count number of positive and negative numbers from the array
 #### p4 - Write X86/64 ALP to perform non-overlapped block transfer without string specific instructions. Block containing data can be defined in the data segment.
+#### p5 - Write X86/64 ALP to perform overlapped block transfer with string specific instructions Block containing data can be defined in the data segment
