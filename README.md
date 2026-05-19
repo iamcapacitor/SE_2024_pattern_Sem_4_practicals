@@ -83,3 +83,4 @@ suitable examples.
 #### p5 - Write X86/64 ALP to perform overlapped block transfer with string specific instructions Block containing data can be defined in the data segment
 #### p6 - Write X86/64 ALP to perform multiplication of two 8-bit hexadecimal numbers. Use successive addition method only.
 #### p7 - Write an X86/64 ALP to find the largest of given Byte/Word/Dword/64-bit numbers.
+#### p8 - Write a switch case driven X86/64 ALP to perform 64-bit hexadecimal arithmetic operations (+,-,*, /) using suitable macros. Define procedure for each operation
